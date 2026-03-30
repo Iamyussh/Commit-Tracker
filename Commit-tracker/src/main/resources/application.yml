@@ -11,3 +11,7 @@ jpa:
 hibernate:
 ddl-auto: update
 show-sql: true
+
+slack:
+  webhook:
+    url: "https://hooks.slack.com/services/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"

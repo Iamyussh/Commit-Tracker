@@ -12,11 +12,11 @@ public class SlackService {
 
     private final RestTemplate restTemplate = new RestTemplate();
 
-    private final String webhookUrl = "https://hooks.slack.com/services/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    ";
+    private final String webhookUrl = "https://hooks.slack.com/services/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";
 
     public void sendMessage(String author, List<String> commits) {
 
-        String text = " " + author + " pushed:\n";
+        String text = " " + author + " pushed this file:\n";
 
         for (String msg : commits) {
             text += "- " + msg + "\n";
